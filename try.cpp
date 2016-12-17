@@ -10,12 +10,12 @@ WINDOW*win=newwin(75, 75, 3, 2);
 raw();
 noecho();
 curs_set(FALSE); 
-int a[75],b[75];
-int fox=16;
-int foy=10;
-int l=10;
-int jk=0,mn=0,g,f;
-int k=3;
+int a[75],b[75];//storing snake coordinates
+int fox=16;	//storing food coordinates
+int foy=10;	//storing food coordinates
+int l=10;	//initializing lenght
+int jk=0,mn=0,g,f;//flag values
+int k=3;	//flag value
 //-------------------------------------------------------------------------------------------------------------------------------------
  for(int i=0;i<75;i++)//BOUNDARY FUNCTION
 	{
