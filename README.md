@@ -1,6 +1,7 @@
 #Snaketerminal
 --------------------------------------------------------------------------------------------------------------
-Snake game in c++ using ncurses header file playable on terminal.
+
+Snake game in c++ using ncurses header file playable on terminal.</t>
 use arrows keys up,down,left,right to control the snake's movement.
 Feed the snake to make it grow longer and longer.
 Remember not to hit the boundaries and snake itself if you hit game over.Make snake grow long as long as you can.
