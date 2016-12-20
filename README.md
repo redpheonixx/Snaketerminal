@@ -7,7 +7,8 @@
 4.  Remember not to hit the boundaries and snake itself if you hit game over.Make snake grow long as long as you can.
 
 ##INSTRUCTIONS TO RUN
-1.  Make sure to install ncurses header file if not then install it.
+1.  Make sure to install ncurses header file if not then install it by using following commands.
+       "  sudo apt-get install libncurses5-dev libncursesw5-dev  ".
 2.  Run following commands in terminal--
 3.  cd Snaketerminal
 4.  g++ Finalgame.cpp
