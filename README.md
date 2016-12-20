@@ -11,7 +11,7 @@
        "  sudo apt-get install libncurses5-dev libncursesw5-dev  ".
 2.  Run following commands in terminal--
 3.  cd Snaketerminal
-4.  g++ Finalgame.cpp
+4.  g++ Finalgame.cpp -lcurses
 5.  ./a.out
 6.  Enjoy the game.
 
